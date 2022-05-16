@@ -1,1 +1,44 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: 100vw;
+}
+.App h2{
+    font-size: 5em;
+    margin: 0;
+}
+.notes{
+  display: flex;
+  flex-direction: column;
+}
+.notes button {
+  width: 70px;
+  height: 40px;
+  margin: 1px
+}
+.notes button:focus {
+  background-color: brown;
+}
+.degrees {
+  display: flex;
+  flex-direction: column;
+}
+.degrees button {
+  width: 70px;
+  height: 40px;
+  margin: 1px
+}
+.degrees button:focus {
+  background-color: brown;
+}
+.Chords{
+    padding: 5px;
+    width: 500vw;
+}
 
+@media (max-width: 425px) {
+  .App h2{
+    font-size: 1.5em;
+  }
+}
