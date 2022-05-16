@@ -61,7 +61,10 @@ function App() {
             name="group1"
             value={allNotes.indexOf(note)}
             key={allNotes.indexOf(note)}
-            onClick={(e) => {setNoteIndex(parseInt(e.target.value));e.preventDefault();}}
+            onClick={(e) => {
+              setNoteIndex(parseInt(e.target.value));
+              e.preventDefault();
+            }}
           >
             {note.natural || note.sharp} {allNotes.indexOf(note)}
           </Button>
@@ -83,7 +86,13 @@ function App() {
         ))}
       </div>
       <div className="Chords">
-      <h3>Acorde:</h3> {result ? <h2>{result}</h2> : <h4>Seleciona a Nota e o Grau musical.</h4>}</div>
+        <h3>Acorde:</h3>{" "}
+        {result ? (
+          <h2>{result}</h2>
+        ) : (
+          <h4>Seleciona a Nota e o Grau musical.</h4>
+        )}
+      </div>
     </div>
   );
 }
