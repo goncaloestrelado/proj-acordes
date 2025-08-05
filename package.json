@@ -1,6 +1,13 @@
 {
-  "name": "proj-acordes",
-  "version": "0.1.0",
+  "name": "music-theory-explorer",
+  "version": "2.0.0",
+  "description": "A comprehensive music theory application for exploring scales, chords, and progressions",
+  "author": "Gonçalo Estrelado",
+  "keywords": ["music", "theory", "chords", "scales", "circle-of-fifths", "react"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ST4R20RD/proj-acordes"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

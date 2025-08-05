@@ -1,0 +1,100 @@
+/* Circle of Fifths Specific Styles */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.circle-svg {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.key-group {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.key-group:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 3px 12px rgba(0, 0, 0, 0.25));
+}
+
+.key-circle {
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.key-text,
+.accidental-text {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.major-key:hover {
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.minor-key:hover {
+  stroke-width: 3;
+  filter: brightness(1.2);
+}
+
+.center-text {
+  user-select: none;
+  pointer-events: none;
+}
+
+.key-text {
+  pointer-events: none;
+  font-family: "Arial", sans-serif;
+}
+
+.accidental-text {
+  pointer-events: none;
+  font-family: "Arial", sans-serif;
+}
+
+.center-text {
+  pointer-events: none;
+  font-family: "Arial", sans-serif;
+}
+
+.circle-info {
+  padding: 20px;
+}
+
+.info-list {
+  font-size: 0.9rem;
+  color: #6c757d;
+  padding-left: 20px;
+}
+
+.info-list li {
+  margin-bottom: 8px;
+}
+
+.selected-key-info {
+  padding: 15px;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+@media (max-width: 768px) {
+  .circle-container {
+    padding: 10px;
+  }
+
+  .circle-svg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .circle-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

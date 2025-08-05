@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Music Theory & Chord Explorer
+
+A comprehensive music theory application built with React that helps musicians explore chords, scales, and music theory concepts through an interactive interface.
+
+## Features
+
+- **Circle of Fifths**: Interactive visualization and scale generation
+- **Scale Explorer**: View major scales with proper sharps and flats
+- **Chord Progressions**: Generate and explore common chord progressions
+- **Music Theory Tools**: Educational tools for understanding music theory
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+
+## Technologies Used
+
+- React 18
+- Bootstrap 5
+- React Bootstrap
+- Modern ES6+ JavaScript
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

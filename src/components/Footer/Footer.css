@@ -1,3 +1,52 @@
-footer h4{
-    font-size: 1rem;
+.footer {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: white;
+  padding: 40px 0 20px;
+  margin-top: auto;
+}
+
+.footer h5 {
+  color: #3498db;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer h6 {
+  color: #ecf0f1;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #5dade2;
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border-color: #34495e;
+  margin: 20px 0;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 0 15px;
+    text-align: center;
+  }
+
+  .footer .text-md-end {
+    text-align: center !important;
+    margin-top: 20px;
+  }
 }
