@@ -6,10 +6,7 @@ export function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h5>Music Theory Explorer</h5>
-            <p className="text-muted">
-              Explore the beautiful world of music theory through interactive tools and visualizations.
-            </p>
+            <h5>Circle of Fifths</h5>
           </div>
           <div className="col-md-6 text-md-end">
             <h6>Created by</h6>
@@ -24,7 +21,7 @@ export function Footer() {
         <hr className="footer-divider" />
         <div className="row">
           <div className="col-12 text-center">
-            <p className="copyright text-muted">© 2025 Music Theory Explorer. Made with ❤️ for musicians.</p>
+            <p className="copyright text-muted">© 2025 Circle of Fifths. Made with ❤️ for musicians.</p>
           </div>
         </div>
       </div>

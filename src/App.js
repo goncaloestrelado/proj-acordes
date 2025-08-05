@@ -13,7 +13,7 @@ function App() {
     <Container fluid className="app-container">
       <Row className="justify-content-center mb-4">
         <Col xs={12}>
-          <h1 className="text-center main-title">Music Theory Explorer</h1>
+          <h1 className="text-center main-title">Circle of Fifths</h1>
           <p className="text-center text-white-50">Explore scales and keys in the circle of fifths</p>
         </Col>
       </Row>

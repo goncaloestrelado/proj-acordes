@@ -1,13 +1,13 @@
-# Music Theory & Chord Explorer
+# Circle of Fifths
 
-A comprehensive music theory application built with React that helps musicians explore chords, scales, and music theory concepts through an interactive interface.
+An interactive Circle of Fifths application built with React that helps musicians explore scales and keys through an intuitive interface.
 
 ## Features
 
-- **Circle of Fifths**: Interactive visualization and scale generation
-- **Scale Explorer**: View major scales with proper sharps and flats
-- **Chord Progressions**: Generate and explore common chord progressions
-- **Music Theory Tools**: Educational tools for understanding music theory
+- **Interactive Circle of Fifths**: Click to select keys and visualize relationships
+- **Scale Explorer**: View major and minor scales with proper sharps and flats
+- **Key Relationships**: Understand musical key relationships and progressions
+- **Educational Tools**: Learn music theory through interactive visualization
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 
 ## Technologies Used

@@ -1,7 +1,7 @@
 {
-  "name": "music-theory-explorer",
+  "name": "circle-of-fifths",
   "version": "2.0.0",
-  "description": "A comprehensive music theory application for exploring scales, chords, and progressions",
+  "description": "An interactive Circle of Fifths application for exploring scales and keys",
   "author": "Gonçalo Estrelado",
   "keywords": ["music", "theory", "chords", "scales", "circle-of-fifths", "react"],
   "repository": {
