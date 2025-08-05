@@ -11,34 +11,34 @@ function App() {
 
   return (
     <Container fluid className="app-container">
-      <Row className="justify-content-center mb-4">
+      <Row className="justify-content-center mb-3">
         <Col xs={12}>
           <h1 className="text-center main-title">Circle of Fifths</h1>
-          <p className="text-center text-white-50">Explore scales and keys in the circle of fifths</p>
+          <p className="text-center text-white-50 subtitle">Explore scales and keys in the circle of fifths</p>
         </Col>
       </Row>
 
       <Row className="justify-content-center">
         <Col xs={12} lg={11} xl={10}>
           <Card className="main-card">
-            <Card.Body>
+            <Card.Body className="p-lg-4 p-3">
               {/* Unified Music Theory Interface */}
-              <Row>
+              <Row className="g-3 g-lg-4">
                 {/* Circle of Fifths Section */}
-                <Col lg={8} xl={7}>
-                  <Card className="h-100">
-                    <Card.Header>
-                      <h5>Interactive Circle of Fifths</h5>
+                <Col xs={12} lg={8} xl={7} className="order-1 order-lg-1">
+                  <Card className="h-100 circle-card">
+                    <Card.Header className="d-none d-md-block">
+                      <h5 className="mb-0">Interactive Circle of Fifths</h5>
                       <small className="text-muted">Click any key to explore its scale and relationships</small>
                     </Card.Header>
-                    <Card.Body className="d-flex justify-content-center align-items-center">
+                    <Card.Body className="d-flex justify-content-center align-items-center p-2 p-md-3">
                       <CircleOfFifths selectedKey={selectedKey} onKeySelect={selectKey} />
                     </Card.Body>
                   </Card>
                 </Col>
 
                 {/* Scale Information Panel */}
-                <Col lg={4} xl={5}>
+                <Col xs={12} lg={4} xl={5} className="order-2 order-lg-2">
                   <div className="scale-info-panel">
                     {/* Quick Key Selection */}
                     <Card className="mb-4">

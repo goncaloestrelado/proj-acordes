@@ -21,7 +21,7 @@ const CircleOfFifths = ({ selectedKey, onKeySelect }) => {
 
   return (
     <div className="circle-container">
-      <svg width="300" height="300" className="circle-svg">
+      <svg width="300" height="300" viewBox="0 0 300 300" className="circle-svg" preserveAspectRatio="xMidYMid meet">
         {/* Outer circle */}
         <circle cx={centerX} cy={centerY} r={radius + 20} fill="none" stroke="#dee2e6" strokeWidth="2" />
 
