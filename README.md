@@ -9,11 +9,6 @@ An interactive Circle of Fifths application built with React that helps musician
 - Educational music theory tool
 - Responsive design
 
-## Getting Started
+# Demo
 
-```bash
-npm install
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Visit the live demo: https://circlefifths.netlify.app/
