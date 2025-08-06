@@ -90,18 +90,17 @@ function App() {
                           </h6>
                         </Card.Header>
                         <Card.Body>
-                          <div className="scale-notes-vertical">
-                            {currentScale.map((note, index) => (
-                              <div
-                                key={index}
-                                className="scale-note-item d-flex justify-content-between align-items-center mb-2"
-                              >
-                                <Badge bg="info" className="scale-note-badge">
-                                  {note}
-                                </Badge>
-                                <small className="text-muted">Scale degree {index + 1}</small>
-                              </div>
-                            ))}
+                          <div className="scale-notes-horizontal">
+                            <div className="d-flex flex-wrap gap-2 mb-3">
+                              {currentScale.map((note, index) => (
+                                <div key={index} className="scale-note-item text-center">
+                                  <Badge bg="info" className="scale-note-badge d-block mb-1">
+                                    {note}
+                                  </Badge>
+                                  <small className="text-muted d-block">{index + 1}</small>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </Card.Body>
                       </Card>
