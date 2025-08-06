@@ -3,6 +3,7 @@
   color: white;
   padding: 40px 0 20px;
   margin-top: auto;
+  flex-shrink: 0;
 }
 
 .footer h5 {
